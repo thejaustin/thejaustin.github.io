@@ -62,7 +62,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: .001rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -74,11 +74,16 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem;
+  color: white; }
+
+.project-name:hover {
+  color: rgb(224, 224, 224);
+}
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
