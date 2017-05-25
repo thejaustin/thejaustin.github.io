@@ -2,13 +2,11 @@
 .fullcontent {
   position: absolute;
 
-
   border-style: ridge;
   border-radius: 10px;
 }
 
 .content {
-  margin: 10px;
   max-width: 400px;
   min-width: 400px;
 }
@@ -29,8 +27,4 @@
 
 #ep1, #ep2, #ep3 {
   color: gray;
-}
-video {
-  border-style: ridge;
-  border-color: gray;
 }
