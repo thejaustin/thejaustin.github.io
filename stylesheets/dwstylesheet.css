@@ -1,0 +1,36 @@
+/*Doctor Who Content*/
+.fullcontent {
+  position: absolute;
+
+
+  border-style: ridge;
+  border-radius: 10px;
+}
+
+.content {
+  margin: 10px;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.nav {
+  border-bottom-style: groove;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  height: 35px;
+
+  background-color: #1c2326;
+  }
+
+.tab {
+  margin-top: 6px;
+}
+
+#ep1, #ep2, #ep3 {
+  color: gray;
+}
+video {
+  border-style: ridge;
+  border-color: gray;
+}
