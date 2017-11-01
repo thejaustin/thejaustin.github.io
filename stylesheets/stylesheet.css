@@ -2,7 +2,7 @@
   box-sizing: border-box; 
 }
 
-.main-content {
+html {
   background-color: #262c32;
 }
 
